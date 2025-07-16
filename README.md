@@ -133,8 +133,8 @@ Shopify provides an online shopping platform for users in the agricultural produ
     Press `Ctrl + C` in the terminal.
 
 9. Demo
-   Client site: https://app.netlify.com/sites/fruitstore-ecommerce-client/overview
-   Admin site: https://fruitstore-ecommerce-admin.netlify.app/login
+   Client site: https://fruitstore-ecommerce-client.netlify.app/ (account: your email)
+   Admin site: https://fruitstore-ecommerce-admin.netlify.app/ (account for staff: vandung@gmail.com / 123456)
 ---
 ## Technology Stack
 
@@ -147,7 +147,7 @@ Shopify provides an online shopping platform for users in the agricultural produ
 - Testing: React Testing Library
 - IDE: Visual Studio Code
 - Version Control: Git
-
+- OpenAI Chatbot
 ---
 ## Contributors
 
