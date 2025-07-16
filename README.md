@@ -1,6 +1,11 @@
 # SHOPIFY ECOMMERCE
 
 Shopify provides an online shopping platform for users in the agricultural products sector. The project is built on MERN Stack technology. It includes a ReactJS front-end for the user interface, an ExpressJS and Node.js back-end, and MongoDB for the database. The admin panel allows administrators to manage banner, products, orders, and users efficiently.
++ CLIENT DASHBOARD
+  <img width="1228" height="914" alt="image" src="https://github.com/user-attachments/assets/c3fb903a-36c0-47b4-bf5a-247c5ec7635c" />
+
++ ADMIN DASHBOARD
+  <img width="1875" height="887" alt="image" src="https://github.com/user-attachments/assets/ac2763f6-1224-4b1d-b4a0-1e0daebd45bf" />
 
 ## Prerequisites
 
