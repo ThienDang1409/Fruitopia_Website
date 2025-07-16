@@ -1,0 +1,215 @@
+/* Container styling for the main blog area */
+.blogs-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f5f7fa;
+}
+.right-section {
+  flex: 5; /* Chiếm 70% */
+  width: 80%;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+.posts-list {
+  flex: 1; /* Chiếm 30% */
+}
+
+/* Post list section styling */
+.posts-list {
+  width: 20%;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.posts-list h2 {
+  color: #000000;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.post-card {
+  padding: 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.post-card:hover {
+  background-color: #dfe6e9;
+}
+
+.post-card h3 {
+  color: #34495e;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.post-card p {
+  color: #555;
+}
+
+.tags {
+  margin-top: 8px;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #d1e7f7;
+  color: #00796b;
+  padding: 5px 10px;
+  margin: 2px;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+/* Post details section styling */
+.post-details {
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row; /* Xếp các phần theo cột */
+}
+
+/* Post header: chứa tiêu đề và tác giả */
+.post-header {
+  margin-bottom: 20px; /* Khoảng cách với phần hình ảnh */
+}
+
+.post-info h2 {
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+.post-info p {
+  color: #607d8b;
+}
+
+/* Hình ảnh hiển thị trước nội dung */
+.post-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center; /* Căn giữa hình ảnh */
+  margin-bottom: 20px; /* Khoảng cách với nội dung */
+}
+
+.post-images img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Nội dung bài viết */
+.post-content {
+  color: #333;
+  line-height: 1.6;
+  margin-top: 15px;
+  text-align: justify;
+}
+
+/* Comments section styling */
+.comments-section {
+  margin-top: 30px;
+  background-color: #eafaf1;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.comments-section h3 {
+  color: #388e3c;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.comment-box {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.comment-box h5 {
+  color: #333;
+  font-weight: bold;
+}
+
+.comment-box p {
+  color: #555;
+}
+
+.text-light {
+  color: #757575;
+}
+
+/* Comment form styling */
+.reviewForm {
+  margin-top: 20px;
+}
+
+.reviewForm h4 {
+  color: #388e3c;
+  font-weight: bold;
+}
+
+.reviewForm .form-control {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  resize: vertical;
+}
+
+.btn-blue {
+  background-color: #3498db;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn-blue:hover {
+  background-color: #2980b9;
+}
+
+/* Loader spinner styling */
+.loader {
+  color: white;
+  margin-right: 5px;
+}
+
+/* Search Bar Styles */
+.search-bar {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.search-input {
+  width: 50%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.search-input:focus {
+  border-color: #007BFF;
+}
+
+.search-input::placeholder {
+  color: #888;
+  font-style: italic;
+}
